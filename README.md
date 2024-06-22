@@ -1,2 +1,2 @@
 This is my own web portfolio. 
-I used Sveltekit and Tailwind CSS as my tech stack.
+I used Sveltekit, Tailwind CSS, HTML and Javascript as my tech stack.
