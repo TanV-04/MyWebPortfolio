@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"
+		integrity="sha512-Kef5sc7gfTacR7TZKelcrRs15ipf7+t+n7Zh6mKNJbmW+/RRdCW9nwfLn4YX0s2nO6Kv5Y2ChqgIakaC6PW09A=="
+		crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+		integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+	<!--FONTS (montserrat and ubuntu)-->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+		rel="stylesheet">
+
+	<link
+		href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+		rel="stylesheet">
+
+	<link rel="icon" href="%sveltekit.assets%/favicon.png" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	%sveltekit.head%
+</head>
+
+<body class="text-black relative" data-sveltekit-preload-data="hover">
+	<div style="display: contents" class="relative z-[1]">%sveltekit.body%</div>
+	<div class="background-container"></div>
+	<div class="absolute top-0 left-0 w-full z-[-1] opacity-70" style="height: 100vh;">
+		<div class="absolute inset-0" id="particles-js"></div>
+	</div>
+	<script>
+		particlesJS.load('particles-js', 'assets/particles.json', function () {
+			console.log("Callback - particles.js config loaded")
+		})
+	</script>
+</body>
+
+</html>
+
+<style>
+
+	.body {
+		top:0;
+		bottom:0;
+		position: relative;
+	}
+
+	.background-container {
+		height: 100%;
+		width: 100%;
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		position: absolute;
+		background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de83fa6, #1ddee8e4, #2b1de8, #dd00f3, #df00f3a1);
+		background-size: 200% 200%;
+		/* background-size: cover; */
+		opacity: 0.85;
+		animation: rainbow 26s ease infinite;
+		color: black;
+		z-index: -1;
+
+
+		-webkit-animation: rainbow 18s ease infinite;
+		-z-animation: rainbow 18s ease infinite;
+		-o-animation: rainbow 18s ease infinite;
+		animation: rainbow 18s ease infinite;
+	}
+
+	@-webkit-keyframes rainbow {
+		0% {
+			background-position: 0% 82%
+		}
+
+		50% {
+			background-position: 100% 19%
+		}
+
+		100% {
+			background-position: 0% 82%
+		}
+	}
+
+	@-moz-keyframes rainbow {
+		0% {
+			background-position: 0% 82%
+		}
+
+		50% {
+			background-position: 100% 19%
+		}
+
+		100% {
+			background-position: 0% 82%
+		}
+	}
+
+	@-o-keyframes rainbow {
+		0% {
+			background-position: 0% 82%
+		}
+
+		50% {
+			background-position: 100% 19%
+		}
+
+		100% {
+			background-position: 0% 82%
+		}
+	}
+
+	@keyframes rainbow {
+		0% {
+			background-position: 0% 82%
+		}
+
+		50% {
+			background-position: 100% 19%
+		}
+
+		100% {
+			background-position: 0% 82%
+		}
+	}
+</style>
+
+<!--https://www.youtube.com/watch?v=-2UjwQzxvBQ&sttick=0-->
