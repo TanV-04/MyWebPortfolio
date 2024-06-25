@@ -4,7 +4,8 @@
       Designed virtual and itneractive tech-labs for school-children and tested the models using an Occulus.
     </p>
   </div>
-  <img src="src\images\guruji.png" alt="fourth floor model" />
+  <!-- <img src="src\images\guruji.png" alt="fourth floor model" /> -->
+  <img src="/src/lib/guruji.png" alt="fourth floor model" />
 </div>
 
 <style>

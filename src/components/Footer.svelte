@@ -20,7 +20,8 @@
       </a>
     </p>
 
-    <a href="src/files/tanvi_sontakke_resume.pdf" style="font-weight: bold;">Resume</a>
+    <!-- <a href="src/files/tanvi_sontakke_resume.pdf" style="font-weight: bold;">Resume</a> in dev mode -->
+    <a href="public/tanvi_sontakke_resume.pdf" style="font-weight: bold;">Resume</a>
 
   </div>
 </footer>

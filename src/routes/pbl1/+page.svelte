@@ -6,7 +6,8 @@
       applications in rural parts of India.
     </p>
   </div>
-  <img src="src\images\pbl1.png" alt="fourth floor model" />
+  <!-- <img src="src\images\pbl1.png" alt="fourth floor model" /> -->
+  <img src="/src/lib/pbl1.png" alt="fourth floor model" />
 </div>
 
 <style>

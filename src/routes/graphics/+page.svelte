@@ -6,7 +6,8 @@
       Tkinter.
     </p>
   </div>
-  <img src="src\images\graphics.png" alt="fourth floor model" />
+  <!-- <img src="src\images\graphics.png" alt="fourth floor model" /> -->
+  <img src="/src/lib/graphics.png" alt="fourth floor model" />
 </div>
 
 <style>

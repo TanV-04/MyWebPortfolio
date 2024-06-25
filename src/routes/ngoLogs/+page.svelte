@@ -4,7 +4,8 @@
       Created a user-friendly dashboard in Netbeans, especially helpful for service learning students, to simplify NGO searching, registration and donation process.
     </p>
   </div>
-  <img src="src\images\ngo.png" alt="fourth floor model" />
+  <!-- <img src="src\images\ngo.png" alt="fourth floor model" /> -->
+  <img src="/src/lib/ngo.png" alt="fourth floor model" />
 </div>
 
 <style>

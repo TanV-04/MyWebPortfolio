@@ -5,7 +5,8 @@
       of our own, using a fish as the character.
     </p>
   </div>
-  <img src="src\images\pipes.png" alt="fourth floor model" />
+  <!-- <img src="src\images\pipes.png" alt="fourth floor model" /> -->
+  <img src="/src/lib/pipes.png" alt="fish bouncing thru pipes" />
 </div>
 
 <style>

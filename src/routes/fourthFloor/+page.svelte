@@ -8,7 +8,8 @@
       for remote students. The model can be made into a VR application for a better experience.
     </p>
   </div>
-  <img src="src\images\fourthFloor.png" alt="fourth floor model"/>
+  <!-- <img src="src\images\fourthFloor.png" alt="fourth floor model"/> in dev mode-->
+<img src="/src/lib/fourthFloor.png" alt="fourth floor model"/>
 
 </div>
 
