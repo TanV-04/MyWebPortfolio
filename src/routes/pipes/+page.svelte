@@ -1,3 +1,7 @@
+<script>
+  import image from "$lib/pipes.png"
+</script>
+
 <div class="py-6 px-4 flex font-style">
   <div>
     <p>
@@ -6,7 +10,7 @@
     </p>
   </div>
   <!-- <img src="src\images\pipes.png" alt="fourth floor model" /> -->
-  <img src="/src/lib/pipes.png" alt="fish bouncing thru pipes" />
+  <img src={image} alt="fish bouncing thru pipes" />
 </div>
 
 <style>

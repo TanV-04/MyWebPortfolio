@@ -1,3 +1,7 @@
+<script>
+  import image from "$lib/ngo.png"
+</script>
+
 <div class="py-6 px-4 flex font-style">
   <div>
     <p>
@@ -5,7 +9,7 @@
     </p>
   </div>
   <!-- <img src="src\images\ngo.png" alt="fourth floor model" /> -->
-  <img src="/src/lib/ngo.png" alt="fourth floor model" />
+  <img src={image} alt="fourth floor model" />
 </div>
 
 <style>

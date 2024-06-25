@@ -1,3 +1,9 @@
+<script>
+  import image from "$lib/carbonEmitted.png"
+  import image2 from "$lib/numberOfHomes.png"
+</script>
+
+
 <div class="py-6">
   <h1 class="text-center text-3xl font-bold">
     Can Green Coding Bridge the Gap Between LLMs and a Healthy Planet?
@@ -77,7 +83,7 @@
   </p>
 
   <img
-    src="src\images\carbonEmitted.png"
+    src={image}
     style="float: right; margin-left: 20px; width: 50%;"
   />
 
@@ -98,7 +104,7 @@
   </p>
 
   <img
-    src="src\images\numberOfHomes.png"
+    src={image2}
     style="float: right; margin-left: 20px;  width:50%"
   />
 

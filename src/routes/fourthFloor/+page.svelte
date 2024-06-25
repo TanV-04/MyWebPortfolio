@@ -1,4 +1,6 @@
-
+<script>
+  import image from "$lib/fourthFloor.png"
+</script>
 
 <div class="py-6 px-4 flex font-style">
   <div>
@@ -9,7 +11,7 @@
     </p>
   </div>
   <!-- <img src="src\images\fourthFloor.png" alt="fourth floor model"/> in dev mode-->
-<img src="/src/lib/fourthFloor.png" alt="fourth floor model"/>
+<img src={image} alt="fourth floor model"/>
 
 </div>
 

@@ -1,5 +1,7 @@
 <script>
   import Step from "./Step.svelte";
+  import image from "$lib/profileImg.jpg"
+
   let steps = [
     {
       name: "Global News in Marathi: Headlines & Insights",
@@ -129,7 +131,7 @@
         class="object-cover z-[2] max-h-[70vh]"
       /> -->
       <img
-      src="/src/lib/profileImg.jpg"
+      src={image}
       alt="profile image"
       class="object-cover z-[2] max-h-[70vh]"
     />
