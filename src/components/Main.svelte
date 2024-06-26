@@ -8,42 +8,42 @@
       icon: "fa-solid fa-language text-purple-300",
       description:
         "Created a GUI for text extraction, summarization, and translation using NetBeans and Flask, to demonstrate the offline functionality of such applications in rural parts of India.",
-      href: "/MyWebPortfolio/pbl1",
+      href: "/pbl1",
     },
     {
       name: "Dodge the Pipes: Marine Edition",
       icon: "fa-solid fa-gamepad text-purple-300",
       description:
         "Built a game similar to Flappy Bird in Python using PyGame, with a twist of our own, using a fish as the character.",
-      href: "/MyWebPortfolio/pipes",
+      href: "/pipes",
     },
     {
       name: "Engineering Graphics Simulator",
       icon: "fa-solid fa-compass-drafting text-purple-300",
       description:
         "Built a simulator for visualizing lines using angles and distances as input for our Engineering Graphics Lab in semester 1.",
-      href: "/MyWebPortfolio/graphics",
+      href: "/graphics",
     },
     {
       name: "NGOLogs: A Simplified NGO Engagement System",
       icon: "fa-solid fa-database text-purple-300",
       description:
         "Created a user-friendly dashboard in NetBeans for service learning students to easily search, register with, and donate to NGOs, streamlining the process significantly.",
-      href: "/MyWebPortfolio/ngoLogs",
+      href: "/ngoLogs",
     },
     {
       name: "Virtual Replica of SIT's CS Department",
       icon: "fa-solid fa-vr-cardboard text-purple-300",
       description:
         "We created a virtual version of SIT's Computer Science Department with a team of three students, led by the department's HoD. This model was used to test custom VR goggles by another team and formed the basis for a 3D racing game as a part of an event at our TechFest '23.",
-      href: "/MyWebPortfolio/fourthFloor",
+      href: "/fourthFloor",
     },
     {
       name: "Virtual Lab Designing for School-Children",
       icon: "fa-solid fa-school text-purple-300",
       description:
         "As a part of my internship in first year, me and my partner were responsible for designing virtual and interactive tech-labs for school-children and testing the models using an Occulus. ",
-      href: "/MyWebPortfolio/guruji",
+      href: "/guruji",
     },
   ];
 
@@ -57,17 +57,17 @@
     {
       title: "My First Blog",
       smallDesc: "Click here to read my first ever blog!",
-      href: "/MyWebPortfolio/firstBlog",
+      href: "/firstBlog",
     },
     {
       title: "Metaverse",
       smallDesc:
         "The metaverse combines AI, virtual environments, and immersive tech to revolutionize how we interact online, shaping the future of the Internet. Click to find out more!",
-      href: "/MyWebPortfolio/metaverse",
+      href: "/metaverse",
     },
     {
       title: "2020",
-      href: "/MyWebPortfolio/covid",
+      href: "/covid",
       smallDesc:
         "The COVID-19 pandemic completely transformed our daily lives, confronting us with a new reality looming over the horizon yet humans persevered with resilience and courage.",
     },
@@ -75,19 +75,19 @@
       title: "Indian Parents and Education",
       smallDesc:
         "To pursue our passions or bow to societal expectations: the age-old struggle between staying true to ourselves and seeking approval, where happiness outweighs riches.",
-      href: "/MyWebPortfolio/indianEd",
+      href: "/indianEd",
     },
     {
       title: "Pollution",
       smallDesc:
         "The global climate crisis is ignored like a plastic bag flying past, but its impact on children, health, and wildlife demands urgent action beyond excuses and political games.",
-      href: "/MyWebPortfolio/pollution",
+      href: "/pollution",
     },
     {
       title: "LLMs and Green Coding",
       smallDesc:
         "Training Large Language Models like ChatGPT emits carbon like a speeding car around the Earth's equator 300 times, but green coding offers hope for a greener tech future.",
-      href: "/MyWebPortfolio/llms",
+      href: "/llms",
     },
     // {
     //   title: "How the World Frustrates Me",
@@ -99,7 +99,7 @@
       title: "College",
       smallDesc:
         "Up till now, college has been a whirlwing of growth and self-reflection, shaping me into someone who's learning to navigate expectations and make my own future.",
-      href: "/MyWebPortfolio/college",
+      href: "/college",
     },
   ];
 </script>
