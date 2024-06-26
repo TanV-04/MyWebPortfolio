@@ -1,6 +1,7 @@
 <script>
   import Step from "./Step.svelte";
   import image from "$lib/profileImg.jpg"
+  import i from "$lib/letter.svg"
 
   let steps = [
     {
@@ -256,6 +257,8 @@
 
   <section id="contactMe"></section>
 </main>
+
+<link rel="icon" type="image/svg+xml" href={i}/>
 
 <style>
   .text-violet-900 {
