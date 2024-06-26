@@ -5,7 +5,7 @@ const config = {
   kit: {
     adapter: adapter(),
     paths: {
-      base: process.env.NODE_ENV === 'production' ? '/MyWebPortfolio' : '',
+      base: process.env.NODE_ENV === 'production' ? '' : '',
     },
   },
   preprocess: vitePreprocess()

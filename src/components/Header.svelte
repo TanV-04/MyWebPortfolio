@@ -2,10 +2,10 @@
   export let y;
 
   export let tabs = [
-    { name: "Projects ", link: "#projects" },
-    { name: "About me", link: "#about" },
-    { name: "Blog", link: "#blog" }, // target: "_blank"
-    { name: "Contact me", link: "#contactMe" },
+    { name: "Projects ", link: "/#projects" },
+    { name: "About me", link: "/#about" },
+    { name: "Blog", link: "/#blog" }, // target: "_blank"
+    { name: "Contact me", link: "/#contactMe" },
   ];
 </script>
 
