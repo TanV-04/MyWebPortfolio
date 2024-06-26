@@ -258,7 +258,7 @@
   <section id="contactMe"></section>
 </main>
 
-<link rel="icon" type="image/svg+xml" href={i}/>
+<!-- <link rel="icon" type="image/svg+xml" href={i}/> -->
 
 <style>
   .text-violet-900 {
