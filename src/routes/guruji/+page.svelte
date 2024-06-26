@@ -2,15 +2,17 @@
   import image from "$lib/guruji.png"
 </script>
 
-<div class="py-6 px-10 flex font-style">
-  <div>
-    <p>
-      Designed virtual and itneractive tech-labs for school-children and tested the models using an Occulus.
-    </p>
+<main class="flex flex-col flex-1 p-4">
+  <div class="py-6 px-10 flex flex-col lg:flex-row items-center font-style">
+    <div class="lg:w-1/2 lg:ml-4">
+      <p>
+        Designed virtual and itneractive tech-labs for school-children and tested the models using an Occulus.
+      </p>
+    </div>
+    <!-- <img src="src\images\guruji.png" alt="fourth floor model" /> -->
+    <img src={image} class="lg:mr-4 mb-4 lg:mb-0 rounded-lg border-4 border-black lg:w-1/2" alt="fourth floor model" />
   </div>
-  <!-- <img src="src\images\guruji.png" alt="fourth floor model" /> -->
-  <img src={image} alt="fourth floor model" />
-</div>
+</main>
 
 <style>
   .font-style {

@@ -12,6 +12,20 @@
 
   function toggleMobileMenu() {
     isMobileMenuOpen = !isMobileMenuOpen;
+
+    if (isMobileMenuOpen) {
+      document.addEventListener('click', closeMobileMenu);
+    }
+    else {
+      document.removeEventListener('click', closeMobileMenu)
+    }
+  }
+
+  function closeMobileMenu(event) {
+    const mobileMenu = document.getElementById('mobile-menu');
+    if (!mobileMenu.contains(event.target)) {
+      isMobileMenuOpen = true;
+    }
   }
 
 </script>
@@ -33,13 +47,14 @@
   </h1>
 
   <!--mobile menu toggle button-->
+<!-- 
+<button type="button" class=" navbar-toggler inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="mobile-menu" aria-expanded={isMobileMenuOpen} on:click={toggleMobileMenu} data-toggle="collapse">
+  <span class="sr-only">Open main menu</span>
+  <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+  </svg>
+</button>
 
-  <button type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="mobile-menu" aria-expanded={isMobileMenuOpen} on:click={toggleMobileMenu}>
-    <span class="sr-only">Open main menu</span>
-    <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
-      <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
-    </svg>
-  </button>
 
   <div class={`absolute top-0 left-0 w-full bg-white shadow-lg md:hidden ${isMobileMenuOpen ? 'block' : 'hidden'}`} id="mobile-menu">
     <ul class="p-4">
@@ -49,7 +64,7 @@
         </li>
       {/each}
     </ul>
-  </div>
+  </div> -->
 
   <!--desktop menu-->
 

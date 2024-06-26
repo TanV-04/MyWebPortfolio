@@ -2,16 +2,18 @@
   import image from "$lib/pipes.png"
 </script>
 
-<div class="py-6 px-4 flex font-style">
-  <div>
-    <p>
-      Built a game similar to Flappy Bird in Python using PyGame, with a twist
-      of our own, using a fish as the character.
-    </p>
+<main class="flex flex-col flex-1 p-4">
+  <div class="py-6 px-4 flex flex-col lg:flex-row items-center font-style">
+    <div class="lg:w-1/2 lg:ml-4">
+      <p>
+        Built a game similar to Flappy Bird in Python using PyGame, with a twist
+        of our own, using a fish as the character.
+      </p>
+    </div>
+    <!-- <img src="src\images\pipes.png" alt="fourth floor model" /> -->
+    <img class="lg:mr-4 mb-4 lg:mb-0 rounded-lg border-4 border-black lg:w-1/2" src={image} alt="fish bouncing thru pipes" />
   </div>
-  <!-- <img src="src\images\pipes.png" alt="fourth floor model" /> -->
-  <img src={image} alt="fish bouncing thru pipes" />
-</div>
+</main>
 
 <style>
   .font-style {
