@@ -46,6 +46,22 @@
         "As a part of my internship in first year, me and my partner were responsible for designing virtual and interactive tech-labs for school-children and testing the models using an Occulus. ",
       href: "/guruji",
     },
+
+    {
+      name: "Personal Portfolio",
+      icon: "fa-solid fa-briefcase text-purple-300",
+      description:
+        "Made my personal portfolio.",
+      href: "/portfolio",
+    },
+
+    {
+      name: "Recipe Website Template",
+      icon: "fa-solid fa-bowl-food text-purple-300",
+      description:
+        "Developed a ready to use template/website for food bloggers.",
+      href: "/recipeWebsite",
+    },
   ];
 
   let benefits = [
@@ -180,6 +196,18 @@
       <Step step={steps[5]}>
         <p>
           Created using <strong class="text-violet-900">Blender.</strong>
+        </p>
+      </Step>
+
+      <Step step={steps[6]}>
+        <p>
+          Created using <strong class="text-violet-900">Svelte, HTML, CSS, JS.</strong>
+        </p>
+      </Step>
+
+      <Step step={steps[7]}>
+        <p>
+          Created using <strong class="text-violet-900">Svelte, HTML, CSS, JS.</strong>
         </p>
       </Step>
     </div>
