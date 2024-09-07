@@ -1,5 +1,5 @@
 <script>
-  import pdf from "$lib/tanvi_sontakke_resume.pdf";
+  import pdf from "$lib/tanvi_sontakke_resume1.pdf";
 </script>
 
 <footer
